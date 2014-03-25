@@ -6,5 +6,6 @@ name := "Example"
 version := "0.1-SNAPSHOT"
 
 libraryDependencies ++= Seq(
-    "org.scala-lang.modules.scalajs" %% "scalajs-jasmine-test-framework" % scalaJSVersion % "test"
+  "com.scalarx" % "scalarx_2.10" % "0.2.3-JS",
+  "org.scala-lang.modules.scalajs" %% "scalajs-jasmine-test-framework" % scalaJSVersion % "test"
 )
